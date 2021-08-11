@@ -1,0 +1,18 @@
+body {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  &__big {
+    max-width: 1440px;
+  }
+}
